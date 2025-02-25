@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noImplicitAny": true, // Запрещает неявное использование типа any
+		"esModuleInterop": true,
+		"baseUrl": "./",
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	}
+}
